@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import Header from './layout/Header';
 import Sidebar from './layout/Sidebar';
 import menu from '../../menu';
+import FooBar from '../material/foobar';
 
-require('./Docs.css');
+require('./Defiant.css');
 
 const routes = [];
 for (let i = 0, len = menu.sections.length; i < len; i += 1) {
@@ -14,11 +15,12 @@ for (let i = 0, len = menu.sections.length; i < len; i += 1) {
   }
 }
 
-const Docs = (props) => {
+const Defiant = (props) => {
   const link = routes[props.link];
 
   return (
-    <div className="docs">
+    <div className="Defiant">
+    
       <Sidebar handleLink={props.handleLink} />
       <main>
         {
@@ -42,9 +44,9 @@ const Docs = (props) => {
   );
 };
 
-Docs.propTypes = {
+Defiant.propTypes = {
   link: PropTypes.string.isRequired,
   handleLink: PropTypes.func.isRequired,
 };
 
-export default Docs;
+export default Defiant;

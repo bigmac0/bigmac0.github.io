@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 const Contribute = () => (
   <div className="docs-contribute">
@@ -7,3 +7,4 @@ const Contribute = () => (
 );
 
 export default Contribute;
+*/

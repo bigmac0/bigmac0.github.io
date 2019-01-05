@@ -1,86 +1,85 @@
 import React from 'react';
 // Intro
-import Installation from './components/docs/pages/intro/Installation';
-import HelloWorld from './components/docs/pages/intro/HelloWorld';
+import Intro from './components/docs/pages/intro/intro';
+import About from './components/docs/pages/intro/about';
 // Examples
-import Example1 from './components/docs/pages/examples/Example1';
-import Example2 from './components/docs/pages/examples/Example2';
+import Privacy from './components/docs/pages/legal/privacy';
+import TOU from './components/docs/pages/legal/TOU';
 // API Referece
-import Component1 from './components/docs/pages/reference/Component1';
-// Others
-import Contribute from './components/docs/pages/others/Contribute';
-import Github from './components/docs/pages/others/Github';
+import Exceptions from './components/docs/pages/reference/exceptions';
+/*// Others
+import Contribute from './components/docs/pages/others/Bleh';
+import Github from './components/docs/pages/others/Butthub';*/
 
 const menu = {
-  title: 'REACT SPA Boilerplate',
-  description: 'A React SPA boilerplate for open source projects',
+  title: 'Florida Free Appliance Pickup',
+  description: 'Find appliance people near you! (Coming soon)',
   homeLink: '/',
-  docsLink: '/docs/installation',
+  DefiantLink: '/Defiant/intro',
   github: {
-    user: 'lucasbassetti',
-    repository: 'react-spa-boilerplate',
+    user: 'impetus1',
+    repository: '',
   },
   sections: [
     {
       title: 'Intro',
-      icon: 'fa fa-arrow-right',
+      icon: 'fa fa-home',
       links: [
         {
-          href: '/docs/installation',
-          title: 'Installation',
-          component: <Installation />,
+          href: '/Defiant/intro',
+          title: 'Intro',
+          component: <Intro />,
         },
         {
-          href: '/docs/hello-world',
-          title: 'Hello World',
-          component: <HelloWorld />,
+          href: '/Defiant/about',
+          title: 'About',
+          component: <About />,
         },
       ],
     },
     {
-      title: 'Examples',
-      icon: 'fa fa-code',
+      title: 'Legal',
+      icon: 'fa fa-file',
       links: [
         {
-          href: '/docs/example1',
-          title: 'Example 1',
-          component: <Example1 />,
+          href: '/Defiant/privacy',
+          title: 'Privacy',
+          component: <Privacy />,
         },
         {
-          href: '/docs/example2',
-          title: 'Example 2',
-          component: <Example2 />,
+          href: '/Defiant/terms-of-use',
+          title: 'Terms of Use',
+          component: <TOU />,
         },
       ],
     },
     {
-      title: 'API Reference',
-      icon: 'fa fa-cogs',
+      title: 'Exeptions',
+      icon: 'fa fa-dolly',
       links: [
         {
-          href: '/docs/component1',
-          title: 'Component 1',
-          description: 'Description of component 1',
-          component: <Component1 />,
+          href: '/Defiant/exceptions',
+          title: 'Charges',
+          component: <Exceptions />,
         },
       ],
     },
-    {
+    /*{
       title: 'Others',
       icon: 'fa fa-th',
       links: [
         {
-          href: '/docs/contribute',
-          title: 'How to Contribute',
-          component: <Contribute />,
+          href: '/docs/bleh',
+          title: 'tbd',
+          component: <Bleh />,
         },
         {
-          href: '/docs/github',
-          title: 'Github Page',
-          component: <Github />,
+          href: '/docs/butthub',
+          title: 'butthub Page',
+          component: <Butthub />,
         },
       ],
-    },
+    },*/
   ],
 };
 

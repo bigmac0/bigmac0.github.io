@@ -1,41 +1,36 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import menu from '../../menu';
-
+import FooBar from '../material/foobar';
+//import ReactContactForm from 'react-mail-form';
+//import { geocodeByAddress, geocodeByPlaceId } from 'react-places-autocomplete';
+//import PlacesAutocomplete from 'react-places-autocomplete';
+//import SimpleForm from 'autoform'; // Tryna get dis form 2 work 
 require('./Home.css');
 
 const Home = (props) => {
-  const { title, description, docsLink, github } = menu;
-  const githubUrl = `https://ghbtns.com/github-btn.html?user=${github.user}&repo=${github.repository}`;
+  const { title, description, DefiantLink} = menu;
   return (
+    <div>
+
+    <FooBar/>
     <div className="home">
       <h1 className="title">{title}</h1>
       <p className="description">{description}</p>
+      
       <div className="buttons">
-        <iframe
-          src={`${githubUrl}&type=star&count=true&size=large`}
-          frameBorder="0"
-          scrolling="0"
-          width="160px"
-          height="30px"
-        />
-        <iframe
-          src={`${githubUrl}&type=fork&count=true&size=large`}
-          frameBorder="0"
-          scrolling="0"
-          width="158px"
-          height="30px"
-        />
       </div>
-      <p className="documentation">
+      <p className="recycler">
+
         <a
-          className="docs-button"
-          onClick={() => props.handleLink(docsLink)}
+          className="recycle-button"
+          onClick={() => props.handleLink(DefiantLink)}
         >
-          <i className="fa fa-book" />
-          Documentation
+          <i className="fa fa-recycle" />
+          Enter Site
         </a>
       </p>
+    </div>
     </div>
   );
 };

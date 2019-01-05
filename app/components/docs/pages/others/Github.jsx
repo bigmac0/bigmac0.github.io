@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 const Github = () => (
   <div className="docs-github">
@@ -12,3 +12,4 @@ const Github = () => (
 );
 
 export default Github;
+*/

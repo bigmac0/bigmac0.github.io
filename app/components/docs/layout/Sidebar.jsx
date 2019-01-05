@@ -6,6 +6,8 @@ import menu from '../../../menu';
 const $ = require('jquery');
 require('./Sidebar.css');
 
+//this does not have to be edited, as the things it calls are all defined elsewhere, plus it doesn't call 'classes'
+
 class Sidebar extends Component {
   constructor(props) {
     super(props);
