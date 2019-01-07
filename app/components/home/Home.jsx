@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import menu from '../../menu';
 import FooBar from '../material/foobar';
+//import FormContainer from './containers/FormContainer';
 //import ReactContactForm from 'react-mail-form';
 //import { geocodeByAddress, geocodeByPlaceId } from 'react-places-autocomplete';
 //import PlacesAutocomplete from 'react-places-autocomplete';
@@ -12,7 +13,9 @@ const Home = (props) => {
   const { title, description, DefiantLink} = menu;
   return (
     <div>
-
+        <div className="container">
+  {/*<FormContainer />*/}
+      </div>
     <FooBar/>
     <div className="home">
       <h1 className="title">{title}</h1>
