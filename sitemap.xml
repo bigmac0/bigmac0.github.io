@@ -4,16 +4,23 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://appliancerecycle.me/</loc>
-  <loc>https://appliancerecycle.me/#/intro</loc>
-<loc>https://appliancerecycle.me/#/about</loc>
-<loc>https://appliancerecycle.me/#/exceptions</loc>
+  
 <lastmod>2019-02-17T02:25:24+00:00</lastmod>
 </url>
+<url><loc>https://appliancerecycle.me/#/intro</loc>
+<lastmod>2019-02-17T02:25:24+00:00</lastmod>
+</url>
+<url><loc>https://appliancerecycle.me/#/about</loc>
+<lastmod>2019-02-17T02:25:24+00:00</lastmod>
+</url>
+<url><loc>https://appliancerecycle.me/#/exceptions</loc>
+<lastmod>2019-02-17T02:25:24+00:00</lastmod>
+</url>
+
 
 
 </urlset>
